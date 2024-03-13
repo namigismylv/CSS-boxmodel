@@ -1,4 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
+    width: 800px;
+    margin: auto;
     background-color: antiquewhite;
     
 }
@@ -7,8 +13,6 @@ body{
 .box__header{
     text-align: center;
     border-bottom: 2px solid aqua;
-    width: 800px;
-    margin: auto;
 
     
 }
@@ -19,7 +23,7 @@ body{
 }
 .box__body h4,p{
 
-    margin-left: 360px
+padding-top: 20px;
 
 }
 
