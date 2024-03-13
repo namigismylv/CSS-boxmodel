@@ -1,0 +1,25 @@
+body{
+    background-color: antiquewhite;
+    
+}
+
+
+.box__header{
+    text-align: center;
+    border-bottom: 2px solid aqua;
+    width: 800px;
+    margin: auto;
+
+    
+}
+
+.box__body h4{
+    color: tomato
+    
+}
+.box__body h4,p{
+
+    margin-left: 360px
+
+}
+
