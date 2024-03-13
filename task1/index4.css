@@ -1,0 +1,32 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .margin {
+      border: 30px solid orange;
+  }
+  .margin .border {
+      border: 30px solid yellow;
+  }
+  .margin .border .padding {
+      border: 25px solid yellowgreen;
+  }
+  
+  .margin .border .padding .content {
+      position: relative;
+      border-top: 20px solid steelblue;
+      border-bottom: 20px solid steelblue;
+      width: 500px;
+  }
+  .margin .border .padding .content span{
+      position: absolute;
+      top: -15px;
+      left: 0px;
+  }
+  .margin .border .padding .content img {
+    width: 500px;
+  }
+  
